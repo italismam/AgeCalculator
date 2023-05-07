@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:regular,italic,700,800italic" rel="stylesheet" />
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <div class="main-block">
+    <div class="main-block__top">
+      <div class="main-block__info-enter day-enter">
+        <p class="day-enter__text text">day</p>
+        <input type="text" name="DAY" id="DAY" placeholder="DD">
+        <p class="main-block__field hide">This field is required</p>
+        <p class="main-block__more hideMore">Must be a valid day</p>
+      </div>
+      <div class="main-block__info-enter month-enter">
+        <p class="month-enter__text text">month</p>
+        <input type="text" name="MONTH" id="MONTH" placeholder="MM">
+        <p class="main-block__field hide">This field is required</p>
+        <p class="main-block__more hideMore">Must be a valid month</p>
+      </div>
+      <div class="main-block__info-enter year-enter">
+        <p class="year-enter__text text">year</p>
+        <input type="text" name="YEAR" id="YEAR" placeholder="YYYY">
+        <p class="main-block__field hide">This field is required</p>
+        <p class="main-block__more hideMore">Must be in the past</p>
+      </div>
+      <img src="assets/images/icon-arrow.svg" alt="img" id="but"> 
+    </div>
+
+    <div class="main-block__bottom">
+      <div class="main-block__output output-years">
+        <p class="output-years__num">--</p>
+        <h1 class="output-years__title">years</h1>
+      </div>
+      <div class="main-block__output output-months">
+        <p class="output-months__num">--</p>
+        <h1 class="output-months__title">months</h1>
+      </div>
+      <div class="main-block__output output-days">
+        <p class="output-days__num">--</p>
+        <h1 class="output-days__title">days</h1>
+      </div>
+    </div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
